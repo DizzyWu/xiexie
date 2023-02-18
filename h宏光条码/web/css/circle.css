@@ -1,0 +1,94 @@
+.circleProgress_wrapper {
+  width: 10px;
+  height: 10px;
+  margin: 0 0;
+  position: relative;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.circleProgress_wrapper .mark {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  top: 1px;
+  left: 1px;
+}
+
+.circleProgress_wrapper .wrapper {
+  width: 5px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+.circleProgress_wrapper .right {
+  right: 0;
+}
+
+.circleProgress_wrapper .left {
+  left: 0;
+}
+
+.circleProgress {
+  width: 8px;
+  height: 8px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  -webkit-transform: rotate(-135deg);
+}
+
+.rightcircle {
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  right: 0;
+}
+
+.leftcircle {
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  left: 0;
+}
+
+.swiper-pagination-bullet-active .rightcircle {
+  -webkit-animation: circleProgressLoad_right 5s linear forwards;
+}
+
+.swiper-pagination-bullet-active .leftcircle {
+  -webkit-animation: circleProgressLoad_left 5s linear forwards;
+}
+
+.swiper-pagination-bullet-active-click .rightcircle {
+  -webkit-animation: circleProgressLoad_right 0.5s linear forwards;
+}
+
+.swiper-pagination-bullet-active-click .leftcircle {
+  -webkit-animation: circleProgressLoad_left 0.5s linear forwards;
+}
+
+@-webkit-keyframes circleProgressLoad_right {
+  0% {
+    -webkit-transform: rotate(-135deg);
+  }
+  50%,
+  100% {
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+@-webkit-keyframes circleProgressLoad_left {
+  0%,
+  50% {
+    -webkit-transform: rotate(-135deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+  }
+}

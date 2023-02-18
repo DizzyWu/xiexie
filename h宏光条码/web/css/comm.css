@@ -1,0 +1,488 @@
+/*===================
+========Reset========
+===================*/
+
+blockquote, body, button, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, td, textarea, th, ul {
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+html {
+	font-family: "Microsoft YaHei", "å¾®è½¯é›…é»‘", 'sans-serif', "Tahoma", "Helvetica";
+	font-size: 62.5%;
+	background: #fff;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	height: 100%;
+	color: #333;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+	display: block;
+}
+
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+[hidden], template {
+	display: none;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: 500
+}
+
+img {
+	border: 0;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	background: 0 0;
+	color: inherit;
+}
+
+a:active, a:hover, a:focus {
+	outline: 0
+}
+
+b, strong {
+	font-weight: 700
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+
+button, input, optgroup, select, textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+	outline: 0
+}
+
+button, select {
+	text-transform: none
+}
+
+select {
+	-webkit-appearance: none;
+	border: none
+}
+
+hr {
+	border: 0;
+	height: 1px
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+input {
+	line-height: normal
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+	height: auto
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+
+
+/*===================
+========Public========
+===================*/
+
+.xyh-box, .xyh-box * {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+}
+
+.xyh-border, .xyh-border * {
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	box-sizing: border-box !important
+}
+
+.xyh-circle {
+	border-radius: 100%
+}
+
+.xyh-show {
+	display: block !important
+}
+
+.xyh-hide {
+	display: none !important
+}
+
+.xyh-floatL {
+	float: left;
+}
+
+.xyh-floatR {
+	float: right;
+}
+
+.xyh-txtC {
+	text-align: center;
+}
+
+.xyh-txtL {
+	text-align: left;
+}
+
+.xyh-txtR {
+	text-align: right;
+}
+
+.xyh-lht30 {
+	line-height: 30px;
+}
+
+.xyh-lht26 {
+	line-height: 26px;
+}
+
+.xyh-lht24 {
+	line-height: 24px;
+}
+
+.xyh-lht22 {
+	line-height: 22px;
+}
+
+/* å­—ä½“ */
+.xyh-f12 {
+	font-size: 12px;
+}
+
+.xyh-f13 {
+	font-size: 13px;
+}
+
+.xyh-f14 {
+	font-size: 14px;
+}
+
+.xyh-f16 {
+	font-size: 16px;
+}
+
+.xyh-f18 {
+	font-size: 18px;
+}
+
+.xyh-f20 {
+	font-size: 20px;
+}
+
+.xyh-f22 {
+	font-size: 22px;
+}
+
+.xyh-f24 {
+	font-size: 24px;
+}
+
+.xyh-f32 {
+	font-size: 32px;
+}
+
+.xyh-f36 {
+	font-size: 36px;
+}
+
+.xyh-f48 {
+	font-size: 48px;
+}
+
+
+/* é—´è· */
+.xyh-mt5 {
+	margin-top: 5px;
+}
+
+.xyh-mt10 {
+	margin-top: 10px;
+}
+
+.xyh-mt15 {
+	margin-top: 15px;
+}
+
+.xyh-mt20 {
+	margin-top: 20px;
+}
+
+.xyh-mr5 {
+	margin-right: 5px;
+}
+
+.xyh-mr10 {
+	margin-right: 10px;
+}
+
+.xyh-mr15 {
+	margin-right: 15px;
+}
+
+.xyh-mr20 {
+	margin-right: 20px;
+}
+
+.xyh-mb5 {
+	margin-bottom: 5px;
+}
+
+.xyh-mb10 {
+	margin-bottom: 10px;
+}
+
+.xyh-mb15 {
+	margin-bottom: 15px;
+}
+
+.xyh-mb20 {
+	margin-bottom: 20px;
+}
+
+.xyh-ml5 {
+	margin-left: 5px;
+}
+
+.xyh-ml10 {
+	margin-left: 10px;
+}
+
+.xyh-ml15 {
+	margin-left: 15px;
+}
+
+.xyh-ml20 {
+	margin-left: 20px;
+}
+
+.xyh-m10 {
+	margin: 10px;
+}
+
+.xyh-m15 {
+	margin: 15px;
+}
+
+.xyh-m20 {
+	margin: 20px;
+}
+
+.xyh-pt5 {
+	padding-top: 5px;
+}
+
+.xyh-pt10 {
+	padding-top: 10px;
+}
+
+.xyh-pt15 {
+	padding-top: 15px;
+}
+
+.xyh-pt20 {
+	padding-top: 20px;
+}
+
+.xyh-pr5 {
+	padding-right: 5px;
+}
+
+.xyh-pr10 {
+	padding-right: 10px;
+}
+
+.xyh-pr15 {
+	padding-right: 15px;
+}
+
+.xyh-pr20 {
+	padding-right: 20px;
+}
+
+.xyh-pb5 {
+	padding-bottom: 5px;
+}
+
+.xyh-pb10 {
+	padding-bottom: 10px;
+}
+
+.xyh-pb15 {
+	padding-bottom: 15px;
+}
+
+.xyh-pb20 {
+	padding-bottom: 20px;
+}
+
+.xyh-pl5 {
+	padding-left: 5px;
+}
+
+.xyh-pl10 {
+	padding-left: 10px;
+}
+
+.xyh-pl15 {
+	padding-left: 15px;
+}
+
+.xyh-pl20 {
+	padding-left: 20px;
+}
+
+.xyh-p10 {
+	padding: 10px;
+}
+
+.xyh-p15 {
+	padding: 15px;
+}
+
+.xyh-p20 {
+	padding: 20px;
+}
+
+.xyh-inline {
+	position: relative;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.xyh-block {
+	display: block;
+}
+
+.xyh-elip {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.xyh-unselect {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none
+}
+
+.xyh-clear {
+	clear: both;
+	*zoom: 1
+}
+
+.xyh-clear:after {
+	content: '';
+	clear: both;
+	*zoom: 1;
+	display: block;
+	height: 0
+}
+
+.xyh-wrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a:link {
+	color: #636363;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #636363;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+a:active {
+	color: #636363;
+	text-decoration: none;
+}
+
+.trans {
+	
+	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	/* Firefox 4*/
+	-webkit-transition: all .5s ease;
+	/* Safari å’Œ Chrome*/
+	ã€‚
+	-o-transition: all .5s ease;
+	/* Opera*/
+}
+
+.pos-rel {
+	position: relative;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}

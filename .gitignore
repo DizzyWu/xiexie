@@ -1,0 +1,5 @@
+**/psd/*
+*.psd
+/h宏光条码/psd/
+/node_modules/
+!/h宏光条码/psd/

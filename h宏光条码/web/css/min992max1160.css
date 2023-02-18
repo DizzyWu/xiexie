@@ -1,0 +1,185 @@
+@media ( min-width: 992px) and ( max-width: 1160px) {
+	.container {
+		width: 92%;
+		margin: 0 auto;
+	}
+	
+	.product-title h2 {
+		font-size: 24px;
+	}
+	
+	.product-title-wrap h1 {
+		font-size: 24px;
+	}
+	
+	.hg-web-ss {
+		top: 20%;
+	}
+	
+	.hot-key {
+		display: none;
+	}
+	
+	.hg-web-ss.pro {
+		top: 62%;
+		margin-left: 0;
+		left: 22%;
+	}
+	
+	.hg-web-ss.pro .ssForm {
+		width: 78%;
+	}
+	
+	.foot-yw {
+		display: none;
+	}
+}
+
+
+@media ( max-width: 1024px) {
+	.right-nav {
+		display: none;
+	}
+}
+
+@media ( min-width: 1025px) and ( max-width: 1100px) {
+	/*导航*/
+}
+
+@media ( max-width: 1199px) {
+	.container {
+		width: 96%;
+		margin: 0 auto;
+	}
+	
+	.product-title-wrap h1 {
+		font-size: 26px;
+	}
+	
+	.product-title h2 {
+		font-size: 22px;
+	}
+	
+	.product-wrap {
+		padding-top: 20px;
+	}
+	
+	.headtel {
+		font-size: 20px;
+	}
+	
+	.footser {
+		width: 37%;
+	}
+}
+
+@media ( max-width: 1130px) {
+	.ftewm {
+		display: none;
+	}
+	
+	.footser {
+		width: 43%;
+	}
+	
+	.footadd {
+		width: 36%;
+	}
+	
+	@media ( min-width: 1200px) and ( max-width: 1249px) {
+		.container {
+			width: 98%;
+			margin: 0 auto;
+		}
+	}
+	
+	@media (max-width: 1069px) {
+		.honorrow div.pc-item {
+			width: 23.5%;
+			margin-right: 2%;
+			float: left;
+			text-align: center;
+		}
+		
+		.honorrow div.pc-item:nth-child(4),
+		.honorrow div.pc-item:nth-child(8),
+		.honorrow div.pc-item:nth-child(12),
+		.honorrow div.pc-item:nth-child(16),
+		.honorrow div.pc-item:nth-child(20) {
+			margin-right: 0;
+		}
+	}
+	@media (max-width: 1160px) {
+		.sub-service-foot .list .item p {
+			padding-top: 10px;
+			font-size: 14px;
+		}
+	}
+	
+	@media (max-width: 1060px) {
+		.sub-service-foot .list .item p {
+			padding-top: 3px;
+			font-size: 14px;
+		}
+	}
+	
+	@media (max-width: 920px) {
+		.sub-service-foot .list .item h2 {
+			line-height: 60px;
+			font-size: 16px;
+		}
+		
+		.sub-service-foot .list .item p {
+			padding-top: 8px;
+			
+		}
+	}
+	@media (max-width: 840px) {
+		.sub-service-foot .list .item h2 {
+			line-height: 55px;
+			font-size: 14px;
+		}
+		
+		.sub-service-foot .list .item p {
+			padding-top: 5px;
+			font-size: 12px;
+		}
+	}
+	@media (max-width: 755px) {
+		.sub-service-foot .list .item h2 {
+			line-height: 60px;
+			font-size: 14px;
+			color: #444;
+			padding-top: 40px;
+		}
+		
+		.sub-service-foot .list .item p {
+			display: none;
+		}
+	}
+	@media (max-width: 660px) {
+		.sub-service-foot .list .item h2 {
+			padding-top: 25px;
+		}
+		
+	}
+	@media (max-width: 550px) {
+		.sub-service-foot .list .item h2 {
+			padding-top: 15px;
+		}
+		
+	}
+	@media (max-width: 490px) {
+		.sub-service-foot .list .item h2 {
+			padding-top: 0px;
+		}
+		
+	}
+
+
+
+
+
+
+
+
